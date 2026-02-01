@@ -44,7 +44,7 @@ const projects = [
     category: "Event Branding",
     image: projectImage4,
   },
-  { title: "Venom Perfumes.", category: "Brand Flyer", image: projectImage5 },
+  { title: "Cross Over 2024.", category: "Church Flyer", image: projectImage5 },
   {
     title: "Dominion Mandate",
     category: "Covenant Service",
