@@ -46,7 +46,7 @@ const Navbar = () => {
       <Box
         sx={{
           pointerEvents: "auto",
-          width: trigger ? "92%" : "85%",
+          width: trigger ? "65%" : "75%",
           maxWidth: "1100px",
           display: "flex",
           alignItems: "center",
