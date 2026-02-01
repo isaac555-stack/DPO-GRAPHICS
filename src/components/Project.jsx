@@ -27,7 +27,7 @@ const projects = [
     image: projectImage4,
   },
   { title: "Neymar Junior", category: "Sport Flyer", image: projectImage7 },
-  { title: "Cross Over 2024", category: "Marketing", image: projectImage5 },
+  { title: "Venom Perfumes", category: "Marketing", image: projectImage5 },
   {
     title: "Professional Services",
     category: "Visual Identity",
