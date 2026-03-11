@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import "./App.css";
 
 import Portfolio from "./pages/Home.jsx";
 
