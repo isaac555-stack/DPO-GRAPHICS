@@ -78,8 +78,8 @@ const ServicesSection = () => {
           spacing={2}
           sx={{
             mb: 10,
-            textAlign: { xs: "left", md: "center" },
-            alignItems: { xs: "flex-start", md: "center" },
+            textAlign: { xs: "center", md: "center" },
+            alignItems: { xs: "center", md: "center" },
           }}
         >
           <Typography
@@ -112,7 +112,8 @@ const ServicesSection = () => {
                 elevation={0}
                 sx={{
                   p: 4,
-                  height: "350px",
+                  height: "100%",
+                  maxHeight: "350px",
                   borderRadius: "40px",
                   bgcolor: alpha("#FFF", 0.03),
                   backdropFilter: "blur(10px)",
@@ -158,12 +159,14 @@ const ServicesSection = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    width: 70,
-                    height: 70,
+                    width: "100px",
+                    height: "100px",
                     borderRadius: "20px",
                     bgcolor: alpha(INDIGO, 0.15),
                     color: INDIGO,
+                    py: 2,
                     mb: 5,
+
                     border: `1px solid ${alpha(INDIGO, 0.2)}`,
                   }}
                 >

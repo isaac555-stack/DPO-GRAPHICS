@@ -208,9 +208,10 @@ const Navbar = () => {
               sx={{
                 bgcolor: INDIGO,
                 py: 2,
-                borderRadius: "15px",
+                borderRadius: "25px",
                 fontWeight: 900,
               }}
+              startIcon={<WhatsAppIcon />}
             >
               Contact Me
             </Button>
